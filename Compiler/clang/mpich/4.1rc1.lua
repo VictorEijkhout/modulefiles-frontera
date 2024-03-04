@@ -1,0 +1,7 @@
+prepend_path(    "PATH",           pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","lib")   )
+setenv( "TACC_MPICH_DIR",     "/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang"                     )
+setenv( "TACC_MPICH_INC",     pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","include")   )
+setenv( "TACC_MPICH_LIB",     pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","lib")   )
+setenv( "TACC_MPICH_BIN",     pathJoin("/Users/eijkhout/Installation/mpich/installation-4.1rc1-macbookair-clang","bin")   )
+family("mpi")

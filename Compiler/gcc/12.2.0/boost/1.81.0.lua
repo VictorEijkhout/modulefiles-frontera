@@ -1,0 +1,18 @@
+local helpMsg = [[
+
+Package: boost/1.81.0
+
+The boost modulefile defines the following variables:
+BOOST
+TACC_BOOST_DIR, TACC_BOOST_LIB, TACC_BOOST_INC, TACC_BOOST_BIN
+
+https://www.boost.org/
+]]
+help(helpMsg)
+
+
+setenv( "TACC_BOOST_DIR",     "/work2/00434/eijkhout/boost/installation-boost-1.81.0-clx-gcc12" )
+setenv( "LMOD_BOOST_DIR",     "/work2/00434/eijkhout/boost/installation-boost-1.81.0-clx-gcc12" )
+setenv( "LMOD_BOOST_INC",     pathJoin("/work2/00434/eijkhout/boost/installation-boost-1.81.0-clx-gcc12","include")   )
+setenv( "TACC_BOOST_INC",     pathJoin("/work2/00434/eijkhout/boost/installation-boost-1.81.0-clx-gcc12","include")   )
+prepend_path( "CMAKE_PREFIX_PATH", "/work2/00434/eijkhout/boost/installation-boost-1.81.0-clx-gcc12" )

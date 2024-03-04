@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/pcre2/installation-git-clx-intel19","lib")   )
+setenv( "LMOD_PCRE2_DIR",     "/work2/00434/eijkhout/pcre2/installation-git-clx-intel19"                     )
+setenv( "LMOD_PCRE2_INC",     pathJoin("/work2/00434/eijkhout/pcre2/installation-git-clx-intel19","include")   )
+setenv( "LMOD_PCRE2_LIB",     pathJoin("/work2/00434/eijkhout/pcre2/installation-git-clx-intel19","lib")   )
+setenv( "TACC_PCRE2_DIR",     "/work2/00434/eijkhout/pcre2/installation-git-clx-intel19"                     )
+setenv( "TACC_PCRE2_INC",     pathJoin("/work2/00434/eijkhout/pcre2/installation-git-clx-intel19","include")   )
+setenv( "TACC_PCRE2_LIB",     pathJoin("/work2/00434/eijkhout/pcre2/installation-git-clx-intel19","lib")   )
+prepend_path( "CMAKE_PREFIX_PATH", "/work2/00434/eijkhout/pcre2/installation-git-clx-intel19" )

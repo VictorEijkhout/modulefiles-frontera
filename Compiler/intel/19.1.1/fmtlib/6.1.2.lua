@@ -1,0 +1,7 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19","lib")   )
+setenv( "LMOD_FMTLIB_DIR",     "/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19"                     )
+setenv( "LMOD_FMTLIB_INC",     pathJoin("/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19","include")   )
+setenv( "LMOD_FMTLIB_LIB",     pathJoin("/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19","lib")   )
+setenv( "TACC_FMTLIB_DIR",     "/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19"                     )
+setenv( "TACC_FMTLIB_INC",     pathJoin("/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19","include")   )
+setenv( "TACC_FMTLIB_LIB",     pathJoin("/work2/00434/eijkhout/fmtlib/installation-6.1.2-clx-intel19","lib")   )

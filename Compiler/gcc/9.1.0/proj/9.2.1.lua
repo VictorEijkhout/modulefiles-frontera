@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9","lib")   )
+setenv( "LMOD_PROJ_DIR",     "/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9"                     )
+setenv( "LMOD_PROJ_INC",     pathJoin("/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9","include")   )
+setenv( "LMOD_PROJ_LIB",     pathJoin("/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9","lib")   )
+setenv( "TACC_PROJ_DIR",     "/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9"                     )
+setenv( "TACC_PROJ_INC",     pathJoin("/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9","include")   )
+setenv( "TACC_PROJ_LIB",     pathJoin("/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9","lib")   )
+prepend_path( "CMAKE_PREFIX_PATH", "/work2/00434/eijkhout/proj/installation-9.2.1-clx-gcc9" )

@@ -1,0 +1,31 @@
+local helpMsg = [[
+..
+Package: netcdf/4.9.2
+..
+The netcdf modulefile defines the following variables:
+TACC_PNETCDF_DIR, TACC_PNETCDF_LIB, TACC_PNETCDF_INC, TACC_NETCDF_BIN
+..
+https://netcdf.geodynamics.org/
+https://github.com/geodynamics/netcdf
+https://docs.unidata.ucar.edu/nug/current/getting_and_building_netcdf.html
+]]
+help(helpMsg)
+setenv( "TACC_PNETCDF_DIR",     "/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi" )
+setenv( "LMOD_PNETCDF_DIR",     "/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi" )
+setenv( "TACC_PNETCDF_INC",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","include")   )
+setenv( "LMOD_PNETCDF_INC",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","include")   )
+setenv( "TACC_NETCDF_INC",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","include")   )
+setenv( "TACC_NETCDF_DIR",     "/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi" )
+setenv( "TACC_PNETCDF_LIB",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","lib64")   )
+setenv( "TACC_NETCDF_LIB",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","lib64")   )
+setenv( "LMOD_PNETCDF_LIB",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","lib64")   )
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","lib64")   )
+prepend_path( "PATH",           pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","bin")   )
+setenv( "LMOD_PNETCDF_BIN",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","bin")   )
+setenv( "TACC_PNETCDF_BIN",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","bin")   )
+setenv( "TACC_NETCDF_BIN",     pathJoin("/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","")   )
+prepend_path( "PKG_CONFIG_PATH", 
+                  pathJoin( "/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi","lib64","pkgconfig" ) )
+prepend_path( "CMAKE_PREFIX_PATH", 
+                              "/work2/00434/eijkhout/netcdf/installation-pnetcdf-4.9.2-clx-intel19-impi" 
+                            )

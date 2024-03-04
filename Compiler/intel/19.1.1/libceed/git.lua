@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi","lib")   )
+setenv( "TACC_LIBCEED_DIR",     "/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi"                     )
+setenv( "TACC_LIBCEED_INC",     pathJoin("/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi","include")   )
+setenv( "TACC_LIBCEED_LIB",     pathJoin("/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi","lib")   )
+setenv( "TACC_LIBCEED_DIR",     "/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi"                     )
+setenv( "TACC_LIBCEED_INC",     pathJoin("/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi","include")   )
+setenv( "TACC_LIBCEED_LIB",     pathJoin("/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi","lib")   )
+prepend_path( "PKG_CONFIG_PATH", pathJoin( "/work2/00434/eijkhout/libceed/installation-git-clx-intel-impi","lib/pkgconfig" ) )

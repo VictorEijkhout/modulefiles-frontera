@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi","lib")   )
+setenv( "LMOD_METIS_DIR",     "/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi"                     )
+setenv( "LMOD_METIS_INC",     pathJoin("/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi","include")   )
+setenv( "LMOD_METIS_LIB",     pathJoin("/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi","lib")   )
+setenv( "TACC_METIS_DIR",     "/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi"                     )
+setenv( "TACC_METIS_INC",     pathJoin("/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi","include")   )
+setenv( "TACC_METIS_LIB",     pathJoin("/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi","lib")   )
+prepend_path( "CMAKE_PREFIX_PATH", "/work2/00434/eijkhout/metis/installation-5.1.0.3-clx-intel19-impi" )

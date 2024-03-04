@@ -1,0 +1,7 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi","lib")   )
+setenv( "TACC_ASPECT_DIR",     "/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi"                     )
+setenv( "TACC_ASPECT_INC",     pathJoin("/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi","include")   )
+setenv( "TACC_ASPECT_LIB",     pathJoin("/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi","lib")   )
+setenv( "TACC_ASPECT_DIR",     "/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi"                     )
+setenv( "TACC_ASPECT_INC",     pathJoin("/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi","include")   )
+setenv( "TACC_ASPECT_LIB",     pathJoin("/work2/00434/eijkhout/aspect/installation-2.4.0-clx-intel-impi","lib")   )

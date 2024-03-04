@@ -1,0 +1,6 @@
+prepend_path(    "PATH",           pathJoin("/work2/00434/eijkhout/benchpro/installation-git-clx-intel","bin")   )
+prepend_path(    "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/benchpro/installation-git-clx-intel","lib")   )
+setenv( "TACC_BENCHPRO_DIR",     "/work2/00434/eijkhout/benchpro/installation-git-clx-intel"                     )
+setenv( "TACC_BENCHPRO_INC",     pathJoin("/work2/00434/eijkhout/benchpro/installation-git-clx-intel","include")   )
+setenv( "TACC_BENCHPRO_LIB",     pathJoin("/work2/00434/eijkhout/benchpro/installation-git-clx-intel","lib")   )
+setenv( "TACC_BENCHPRO_BIN",     pathJoin("/work2/00434/eijkhout/benchpro/installation-git-clx-intel","bin")   )

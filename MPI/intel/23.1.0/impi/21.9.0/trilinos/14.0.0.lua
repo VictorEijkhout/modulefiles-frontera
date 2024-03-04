@@ -1,0 +1,8 @@
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi","lib64")   )
+setenv( "LMOD_TRILINOS_DIR",     "/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi"                     )
+setenv( "LMOD_TRILINOS_INC",     pathJoin("/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi","include")   )
+setenv( "LMOD_TRILINOS_LIB",     pathJoin("/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi","lib64")   )
+setenv( "TACC_TRILINOS_DIR",     "/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi"                     )
+setenv( "TACC_TRILINOS_INC",     pathJoin("/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi","include")   )
+setenv( "TACC_TRILINOS_LIB",     pathJoin("/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi","lib64")   )
+prepend_path( "CMAKE_PREFIX_PATH", "/work2/00434/eijkhout/trilinos/installation-14.0.0-clx-intel23-impi" )
