@@ -6,8 +6,11 @@ The jsonc modulefile defines the following variables:
 TACC_JSONC_DIR, TACC_JSONC_LIB, TACC_JSONC_INC
 ..
 https://github.com/json-c/json-c
+..
+(modulefile generated Fri Oct  4 13:53:17 CDT 2024)
 ]]
 help(helpMsg)
+setenv( "TACC_JSONC_VERSION", "git" )
 setenv( "TACC_JSONC_DIR",     "/work2/00434/eijkhout/jsonc/installation-jsonc-git-clx-gcc13" )
 setenv( "LMOD_JSONC_DIR",     "/work2/00434/eijkhout/jsonc/installation-jsonc-git-clx-gcc13" )
 setenv( "TACC_JSONC_INC",     pathJoin("/work2/00434/eijkhout/jsonc/installation-jsonc-git-clx-gcc13","include")   )
@@ -20,3 +23,4 @@ prepend_path( "PKG_CONFIG_PATH",
 prepend_path( "CMAKE_PREFIX_PATH", 
                               "/work2/00434/eijkhout/jsonc/installation-jsonc-git-clx-gcc13" 
                             )
+-- end of modulefile

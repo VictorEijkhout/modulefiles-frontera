@@ -6,18 +6,18 @@ The petsc modulefile defines the following variables:
 TACC_PETSC_DIR, TACC_PETSC_LIB, TACC_PETSC_INC
 ]]
 help(helpMsg)
-setenv( "TACC_PETSC_DIR",     "/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug" )
-setenv( "LMOD_PETSC_DIR",     "/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug" )
-setenv( "TACC_PETSC_INC",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug","include")   )
-setenv( "LMOD_PETSC_INC",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug","include")   )
-setenv( "TACC_PETSC_LIB",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug","lib")   )
-setenv( "LMOD_PETSC_LIB",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug","lib")   )
-prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug","lib")   )
+setenv( "TACC_PETSC_DIR",     "/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug" )
+setenv( "LMOD_PETSC_DIR",     "/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug" )
+setenv( "TACC_PETSC_INC",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug","include")   )
+setenv( "LMOD_PETSC_INC",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug","include")   )
+setenv( "TACC_PETSC_LIB",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug","lib")   )
+setenv( "LMOD_PETSC_LIB",     pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug","lib")   )
+prepend_path( "LD_LIBRARY_PATH",pathJoin("/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug","lib")   )
 prepend_path( "PKG_CONFIG_PATH", 
-                  pathJoin( "/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug","lib","pkgconfig" ) )
--- extra var PETSC_DIR=/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug
-setenv( "PETSC_DIR", "/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug" )
--- extra var PETSC_ARCH=3.20.4-complexdebug
-setenv( "PETSC_ARCH", "3.20.4-complexdebug" )
+                  pathJoin( "/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug","lib","pkgconfig" ) )
+-- extra var PETSC_DIR=/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug
+setenv( "PETSC_DIR", "/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug" )
+-- extra var PETSC_ARCH=3.20.5-complexdebug
+setenv( "PETSC_ARCH", "3.20.5-complexdebug" )
 -- setting extra install dir var PYTHONPATH=lib
-prepend_path( "PYTHONPATH", "/work2/00434/eijkhout/petsc/installation-petsc-3.20.4-clx-intel23-impi-3.20.4-complexdebug/3.20.4-complexdebug/lib" )
+prepend_path( "PYTHONPATH", "/work2/00434/eijkhout/petsc/installation-petsc-3.20.5-clx-intel23-impi-3.20.5-complexdebug/3.20.5-complexdebug/lib" )
